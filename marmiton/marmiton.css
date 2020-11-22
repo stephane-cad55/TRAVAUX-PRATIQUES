@@ -1,0 +1,72 @@
+article {
+    flex-direction: column-reverse;
+    display: flex;
+    width: 380px;
+    height: 460px;
+    background-color: #e8e8e8;
+    border-radius: 40px;
+}
+
+.text { 
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 0px;
+    color: rgb(255, 111, 97);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 7px;
+    padding-top: 10px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 261px;
+}
+
+.contenu_heart {
+    position: relative;
+    background: white;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    top: -30px;
+    left: 159px;
+    z-index: 2;
+}
+ 
+.img_heart {
+    background-image: url("images/coeur_vide.png");
+    z-index: 4;
+    position: relative;
+    bottom: 85px;
+    left: 175px;
+    width: 36px;
+    height: 33px;
+    border-radius: 10px;
+}
+
+.img_heart:hover {
+    background-image: url("images/coeur_plein.png");
+}
+
+.contenu1 {
+    position: relative;
+    background: white;
+    box-shadow: 0 8px 8px 0 rgba(74, 74, 74, .2);
+    padding-bottom: 10px;
+    margin-top: -80px;
+    border-radius: 15px 15px 30px 30px;
+}
+
+.title {
+    margin-left: 68px;
+    z-index: 3;
+}
+
+h1 {
+    font-family: "Filson Soft Bold";
+    border-radius: 90px;
+}

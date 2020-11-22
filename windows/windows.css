@@ -1,0 +1,166 @@
+#leconteneur {
+    height: 500px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: "a a a a b b b b c c d d " "a a a a b b b b c c d d " "e e f f g g g g h h i i " "e e f f g g g g h h i i " "j j k k z z z z l l m m " "j j k k z z z z l l m m " "n n n n z z z z o o o o " "n n n n z z z z o o o o ";
+    grid-gap: 10px;
+}
+
+div>div {
+    border: solid 1px black;
+}
+
+#Courrier {
+    grid-area: a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Calendrier {
+    grid-area: b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Photos {
+    grid-area: c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Skype {
+    grid-area: e;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Contacts {
+    grid-area: f;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Bourse {
+    grid-area: g;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Explorer {
+    grid-area: h;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Aide {
+    grid-area: i;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Listedelecture {
+    grid-area: j;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Skydrive {
+    grid-area: k;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Cartes {
+    grid-area: l;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Santé {
+    grid-area: m;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Bureau {
+    grid-area: n;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Actu {
+    grid-area: o;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#vide {
+    grid-area: z;
+    border: solid 1px black;
+}
+
+.couleur1 {
+    background-color: #7ea6e1;
+}
+
+.couleur2 {
+    background-color: #9933ff;
+}
+
+.couleur3 {
+    background-color: #01994e;
+}
+
+.couleur4 {
+    background-color: #fe0001;
+}
+
+.couleur5 {
+    background-color: #02cc00;
+}
+
+.couleur6 {
+    background-color: #ff7f00;
+}
+
+.couleur7 {
+    background-color: #6500cd;
+}

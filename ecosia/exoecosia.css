@@ -1,0 +1,58 @@
+section,h1{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    width: 280px;
+    height: 200px;
+    font-size: 20px;
+}
+
+h2,p{
+    text-align: center;
+}
+
+.bouton{
+    background-color: #438de0;
+    color: white;
+    box-shadow: 6px, 6px, 2px, 1px rgba(74,74,74,.2);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 40px;
+    justify-content: center;
+    margin:  300px auto;
+    display: block;
+}
+
+.space{
+    margin-left: 30px;
+    box-shadow: 6px 6px 2px 1px rgba(74,74,74,.2);
+}
+
+.zoom {
+    height:200px;
+    }
+
+    .zoom p {
+    text-align:center;
+    }
+   
+    .zoom img:hover {
+    width:300px;
+    height:200px;
+    }
+    
+.bouton:hover {
+  background-color: blue;
+  color: white;
+}
+
+h1{
+  margin: 25px 50px ;  
+}
+
+article{
+    cursor: pointer;
+}
