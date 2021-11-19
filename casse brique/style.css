@@ -3,15 +3,19 @@
     margin: 0;
 }
 
-canvas {
-    display: block;
-    margin: 150px 620px ;
-    border-radius: 10px;
-    background-image: url(img/5274-dark-brick-wall.jpg);
+body{
+    background-image: url("img/wallpapper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    overflow: hidden;
 }
 
-body{
-    background-image: url(img/75742.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+canvas {
+    display: block;
+    margin: 200px 720px ;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.424);
 }
+
+
